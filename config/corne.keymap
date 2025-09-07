@@ -52,8 +52,8 @@
 
             bindings = <
 &kp TAB    &trans  &trans    &kp UP    &trans     &trans       &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LSHFT  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp PIPE  &kp GRAVE
-&kp LCTRL  &trans  &trans    &trans    &trans     &trans       &trans     &trans     &trans           &trans    &kp BSLH  &kp ESC
+&kp &trans &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp PIPE  &kp GRAVE
+&kp &trans &trans  &trans    &trans    &trans     &trans       &trans     &trans     &trans           &trans    &kp BSLH  &kp ESC
                              &kp LGUI  &trans     &kp ENTER    &kp SPACE  &trans     &kp RALT
             >;
         };
