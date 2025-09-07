@@ -36,10 +36,10 @@
             //                    | GUI |     | ENT |   | SPC |  0  | ALT |
 
             bindings = <
-&kp TAB     &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4    &trans     &kp N7        &kp N8  &kp N9  &trans  &kp BSPC
-&bt BT_CLR  &trans           &trans           &trans           &trans           &trans          &trans     &kp NUMBER_4  &kp N5  &kp N6  &trans  &trans
-&kp LSHFT   &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans          &trans     &kp N1        &kp N2  &kp N3  &trans  &kp ESC
-                                              &kp LGUI         &trans           &kp ENTER       &kp SPACE  &trans        &kp N0
+&kp TAB         &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4    &trans     &kp N7        &kp N8  &kp N9  &trans  &kp BSPC
+&kp LEFT_SHIFT  &trans           &trans           &trans           &trans           &trans          &trans     &kp NUMBER_4  &kp N5  &kp N6  &trans  &trans
+&bt BT_CLR      &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans          &trans     &kp N1        &kp N2  &kp N3  &trans  &kp ESC
+                                                  &kp LGUI         &trans           &kp ENTER       &kp SPACE  &trans        &kp N0
             >;
         };
 
@@ -51,10 +51,10 @@
             //                    | GUI |     | ENT |   | SPC |     | ALT |
 
             bindings = <
-&kp TAB    &trans  &trans    &kp UP    &trans     &trans       &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp PIPE  &kp GRAVE
-&kp LSHFT  &trans  &trans    &trans    &trans     &trans       &trans     &trans     &trans           &trans    &kp BSLH  &kp ESC
-                             &kp LGUI  &trans     &kp ENTER    &kp SPACE  &trans     &kp RALT
+&kp TAB  &trans  &trans    &kp UP    &trans     &trans       &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
+&trans   &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp PIPE  &kp GRAVE
+&trans   &trans  &trans    &trans    &trans     &trans       &trans     &trans     &trans           &trans    &kp BSLH  &kp ESC
+                           &kp LGUI  &trans     &kp ENTER    &kp SPACE  &trans     &kp RALT
             >;
         };
     };
