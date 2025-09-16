@@ -15,6 +15,6 @@ manifest:
       import: app/west.yml
     - name: nice-view-mod #new entry
       remote: dsifry #new entry
-      revision: v1.0  #main #new entry
+      revision: main #v1.0 #new entry
   self:
     path: config
